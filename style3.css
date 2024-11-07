@@ -1,0 +1,180 @@
+body {
+	background-image: url(Assets/Background.png);
+	font-family: Copperplate, Papyrus, fantasy;
+	background-size: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: blue;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+#container {
+	background-color: #ce5b6c;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #f7f4f0;
+	color: white;
+	text-align: center;
+	padding: 0px;
+}
+
+#content {
+}
+
+#nav {
+	width: 160px;
+	height: 620px;
+	float: left;
+	background-color: #ffd3c3;
+	padding: 10px;
+	
+	text-align: center;
+}
+
+#nav4 {
+	width: 160px;
+	height: 2085px;
+	float: left;
+	background-color: #ffd3c3;
+	padding: 10px;
+	text-align: center;
+}
+
+#nav3 {
+	width: 160px;
+	height: 2735px;
+	float: left;
+	background-color: #ffd3c3;
+	padding: 10px;	
+	text-align: center;
+}
+
+#nav5 {
+	width: 160px;
+	height: 3280px;
+	float: left;
+	background-color: #ffd3c3;
+	padding: 10px;	
+	text-align: center;
+}
+
+
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav4 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav5 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#nav3 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+
+#main {
+	width: 600px;
+	float: right;
+	background-color: #ce5b6c;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #ffead0;
+	color: black;
+	text-align: right;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+}
+
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+.ul li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+.ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.ul li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #04aa6d;
+}
+
+#nav2 {
+	width: 160px;
+	height: 2060px;
+	float: left;
+	background-color: #ffd3c3;
+	padding: 10px;
+	margin-left: 15px;
+	margin-top: 25px;
+	text-align: center;
+}
+
+#nav2 ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul {
+	color: white;
+}
+
+.back-to-top {
+	display: inline-block;          /* omit for left aligned button  */
+	height: 10px;
+	width: 30px;
+	text-align: center;
+	color: #000000;
+	border: solid 1px;
+	border-color: #000000;
+	background-color: #ffffff;
+}
+
+.back-to-top a:hover {
+	background-color: #000000;
+	color: #ffffff;
+	border-color: #000000;
+}
